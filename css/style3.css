@@ -1,0 +1,162 @@
+/*for all*/
+
+p {
+    word-break: break-all;
+    font-size: 13px;
+    line-height: 25px;
+    color: #353535;
+}
+
+h1,h2,h3{
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+
+blockquote,blockquote p {
+    font-size: 15px;
+    color: #OeOeOe;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*=header*/
+header h1 {
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -999px;
+    width: 140px;
+    height: 50px;
+    background-size: 100% 100%;
+    float: left;
+    margin:10px 10px 20px 0px;
+}
+
+header {
+    overflow: hidden;
+}
+
+
+/*navigation*/
+
+nav{
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: inline;
+    float: right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+nav ul li a:hover, .selected {
+    cursor: pointer;
+    color: darkred;
+}
+
+/*=banner*/
+
+.banner{
+    background: url(../img/1994.png);
+    height: 228px;
+    background-size: 100%;
+    position: relative;
+}
+
+.callout {
+    background-color: grey;
+    height: 228px;
+
+}
+
+.banner p {
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+/*=main*/
+.main {
+    margin-top: 20px;
+}
+
+.button {
+    background:black;
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover{
+    background: grey;
+}
+
+.main div {
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+
+.main h3 {
+    border-bottom:1px solid #d1d1d1;
+    padding-bottom: 20px;
+}
+
+.main blockquote{
+    position: relative;
+}
+
+.main blockquote p {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.main blockquote p:first-child:before, .main blockquote p:last-child:after{
+    font-size: 40px;
+    color: #bfbfbf;
+    position: absolute;
+}
+
+.main blockquote p:first-child:before{
+    content: '“';
+    top: 5px;
+    left: 0px;
+}
+
+.main blockquote p:last-child:after{
+    content: '”';
+    float: right;
+    right: -10px;
+    bottom: -30px;
+}
+
+/*=footer*/
+footer {
+    margin-left: 10px;
+    margin-top: 30px;
+    border-top: 1px solid #d1d1d1;
+    padding-top: 20px;
+}
+
+footer p {
+    color: grey;
+}
+
+footer a {
+    color: grey;
+}
+
+footer a:hover {
+    color: black;
+}
+
+
